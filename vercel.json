@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "nnote-app",
+  "build": {},
+  "installCommand": "npm install && npm install --prefix backend",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
